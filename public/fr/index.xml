@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Le Mariage de Jake et Megan</title>
+    <title>Accueil | Le Mariage de Jake et Megan</title>
     <link>http://localhost:1313/fr/</link>
       <atom:link href="http://localhost:1313/fr/index.xml" rel="self" type="application/rss+xml" />
-    <description>Le Mariage de Jake et Megan</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>fr-fr</language>
+    <description>Accueil</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>fr-fr</language><lastBuildDate>Tue, 24 Oct 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://localhost:1313/media/logo.svg</url>
-      <title>Le Mariage de Jake et Megan</title>
+      <title>Accueil</title>
       <link>http://localhost:1313/fr/</link>
     </image>
     

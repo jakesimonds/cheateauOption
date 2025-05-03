@@ -5,7 +5,6 @@
       "a",
       "article",
       "body",
-      "br",
       "button",
       "circle",
       "div",
@@ -227,7 +226,6 @@
     ],
     "ids": [
       "booking",
-      "contact",
       "events",
       "hide-button",
       "moon",

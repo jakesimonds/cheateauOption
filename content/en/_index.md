@@ -67,16 +67,11 @@ sections:
             - "Reach out today to secure availability, or with any questions."
           # Upload image to `assets/media/` and reference the filename here
           image: Buno-Wedding-18.jpg
-          map:
-            enable: true
-            latitude: 48.3612222
-            longitude: 2.3830556
-            zoom: 15
-            height: 300px
           button:
             text: See on Map
             url: https://www.google.com/maps/place/48%C2%B021'40.4%22N+2%C2%B022'59.0%22E/@48.3615215,2.3821031,18z/data=!4m4!3m3!8m2!3d48.3612222!4d2.3830556?entry=ttu&g_ep=EgoyMDI1MDQyOS4wIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D
     design:
+      image_position: left
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
 ---
