@@ -10,8 +10,9 @@ design:
 sections:
   - block: hero
     content:
-      title: Jake and Megan's Wedding
-      text: A beautiful day at the chateau
+      title: Chateau Buno
+      text: Event venue
+50 km from Paris
       carousel:
         slides:
           - image: Buno-Wedding-9.jpg

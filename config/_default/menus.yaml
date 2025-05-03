@@ -9,7 +9,7 @@ main:
   - name: Events
     url: /#events
     weight: 20
-  - name: Contact
-    url: /#contact
+  - name: Booking
+    url: /#booking
     weight: 30
 

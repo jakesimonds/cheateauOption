@@ -10,8 +10,8 @@ design:
 sections:
   - block: hero
     content:
-      title: Jake and Megan's Wedding
-      text: A beautiful day at the chateau
+      title: Chateau Buno
+      text: Event venue 50 km from Paris.
     design:
       spacing:
         padding: [0, 0, 0, 0]
@@ -22,49 +22,51 @@ sections:
         color: "navy"
         image:
           # Add your image background to `assets/media/`.
-          filename: Buno-Wedding-9.jpg
+          filename: Buno-Wedding-17.jpg
           filters:
             brightness: 0.7
-  - block: features
+  - block: cta-image-paragraph
     id: events
     content:
-      title: Wedding Events
-      text: Join us for our special day
       items:
-        - name: Ceremony
-          icon: heart
-          description: The main event where we'll exchange our vows and become husband and wife.
-        - name: Reception
-          icon: glass-cheers
-          description: Celebrate with us at our reception following the ceremony.
-        - name: Dinner
-          icon: utensils
-          description: Enjoy a delicious meal with family and friends.
-        - name: Dancing
-          icon: music
-          description: Let's dance the night away together!
-        - name: Photos
-          icon: camera
-          description: Capture beautiful memories throughout the day.
-        - name: Details
-          icon: info-circle
-          description: Find all the important information about the day's events.
-  - block: cta-image-paragraph
-    id: contact
-    content:
-      items:
-        - title: The Chateau
+        - title: Events
           text: |
-            A Chateau steeped in history and mystery, with private rooms, a separate apartment, and 8 acres of forest and gardens by the tranquilly flowing Essonne.
+            The three story chateau sits on an island within the river, surrounded by tall trees and flowers, with birds sharing the property with us all year round. A quiet paradise only a train away from Paris, and is exceptionally affordable as it is currently being renovated.
+
+
+            
 
 
           feature_icon: home
           features:
-            - "Three story chateau on an island within the river"
-            - "Surrounded by tall trees and flowers"
-            - "Birds sharing the property year-round"
+            - "81,185m² of land"
+            - "On-site parking"
+            - "Private grounds not visible to neighbors"
+            - "River with boat access"
+            - "Accessible by public transportation (RER D)"
           # Upload image to `assets/media/` and reference the filename here
-          image: Buno-Wedding-17.jpg
+          image: Buno-Wedding-9.jpg
+          map:
+            enable: true
+            latitude: 48.3612222
+            longitude: 2.3830556
+            zoom: 15
+            height: 300px
+  - block: cta-image-paragraph
+    id: booking
+    content:
+      items:
+        - title: Booking
+          text: |
+            Daily rentals available, starting from weekend €1,500, weekday €1,200 and half-day €700.
+
+          feature_icon: home
+          features:
+            - "email: chateau.buno.essonne@gmail.com"
+            - "Address: 2 Rue de l'Essonne 91720 Gironville-sur-Essonne"
+            - "Reach out today to secure availability, or with any questions."
+          # Upload image to `assets/media/` and reference the filename here
+          image: Buno-Wedding-18.jpg
           map:
             enable: true
             latitude: 48.3612222
@@ -72,7 +74,7 @@ sections:
             zoom: 15
             height: 300px
           button:
-            text: Get Directions
+            text: See on Map
             url: https://www.google.com/maps/place/48%C2%B021'40.4%22N+2%C2%B022'59.0%22E/@48.3615215,2.3821031,18z/data=!4m4!3m3!8m2!3d48.3612222!4d2.3830556?entry=ttu&g_ep=EgoyMDI1MDQyOS4wIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D
     design:
       # Section background color (CSS class)
