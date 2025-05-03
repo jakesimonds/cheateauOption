@@ -12,4 +12,6 @@ main:
   - name: Booking
     url: /#booking
     weight: 30
-
+  - name: Gallery
+    url: /#gallery
+    weight: 40

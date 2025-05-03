@@ -74,4 +74,17 @@ sections:
       image_position: left
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
+  - block: cta-image-paragraph
+    id: gallery
+    content:
+      items:
+        - title: Lots of room
+          image: interior.jpg
+        - title: Modern Amenities
+          image: interiorBathroom.jpg
+        - title: Bring your friends!
+          image: interiorMeal.jpg
+    design:
+      css_class: "bg-gray-100 dark:bg-gray-900"
+  
 ---

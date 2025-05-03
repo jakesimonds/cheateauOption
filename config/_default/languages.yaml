@@ -6,17 +6,17 @@
 en:
   languageCode: en-us
   contentDir: content/en
-  title: Jake and Megan's Wedding
+  title: Chateau Buno
   params:
-    description: A beautiful wedding at the Chateau
+    description: Event Venue in France
 
 # French
 fr:
   languageCode: fr-fr
   contentDir: content/fr
-  title: Le Mariage de Jake et Megan
+  title: Chateau Buno
   params:
-    description: Un beau mariage au Château
+    description: Venue de mariage en France
   menu:
     main:
       - name: Accueil
@@ -25,6 +25,9 @@ fr:
       - name: Événements
         url: /#events
         weight: 20
-      - name: Contact
-        url: /#contact
+      - name: Réservation
+        url: /#booking
         weight: 30
+      - name: Galerie
+        url: /#gallery
+        weight: 40

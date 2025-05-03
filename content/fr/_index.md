@@ -33,7 +33,6 @@ sections:
           text: |
             Le château de trois étages est situé sur une île au sein de la rivière, entouré de grands arbres et de fleurs, avec des oiseaux partageant la propriété toute l'année. Un paradis tranquille à seulement un train de Paris, et exceptionnellement abordable car il est actuellement en rénovation.
 
-
           feature_icon: home
           features:
             - "81 185 m² de terrain"
@@ -68,4 +67,18 @@ sections:
     design:
       image_position: left
       css_class: "bg-gray-100 dark:bg-gray-900"
+
+  - block: cta-image-paragraph
+    id: gallery
+    content:
+      items:
+        - title: Beaucoup d'espace
+          image: interior.jpg
+        - title: Commodités modernes
+          image: interiorBathroom.jpg
+        - title: Invitez vos amis !
+          image: interiorMeal.jpg
+    design:
+      css_class: "bg-gray-100 dark:bg-gray-900"
+
 ---
