@@ -12,47 +12,28 @@ sections:
     content:
       title: Jake and Megan's Wedding
       text: A beautiful day at the chateau
-      primary_action:
-        text: View Gallery
-        url: "/blog"
-        icon: photo
+      carousel:
+        slides:
+          - image: Buno-Wedding-9.jpg
+            title: The Chateau
+            text: Our beautiful venue
+          - image: Buno-Wedding-17.jpg
+            title: The Gardens
+            text: Stunning outdoor spaces
+          - image: Buno-Wedding-18.jpg
+            title: The River
+            text: The tranquil Essonne river
     design:
       spacing:
         padding: [0, 0, 0, 0]
         margin: [0, 0, 0, 0]
-      # For full-screen, add `min-h-screen` below
       css_class: "dark"
       background:
         color: "navy"
         image:
-          # Add your image background to `assets/media/`.
           filename: Buno-Wedding-9.jpg
           filters:
             brightness: 0.7
-  - block: features
-    id: events
-    content:
-      title: Wedding Events
-      text: Join us for our special day
-      items:
-        - name: Ceremony
-          icon: heart
-          description: The main event where we'll exchange our vows and become husband and wife.
-        - name: Reception
-          icon: glass-cheers
-          description: Celebrate with us at our reception following the ceremony.
-        - name: Dinner
-          icon: utensils
-          description: Enjoy a delicious meal with family and friends.
-        - name: Dancing
-          icon: music
-          description: Let's dance the night away together!
-        - name: Photos
-          icon: camera
-          description: Capture beautiful memories throughout the day.
-        - name: Details
-          icon: info-circle
-          description: Find all the important information about the day's events.
   - block: cta-image-paragraph
     id: contact
     content:
@@ -66,10 +47,15 @@ sections:
             - "Birds sharing the property year-round"
           # Upload image to `assets/media/` and reference the filename here
           image: Buno-Wedding-17.jpg
+          map:
+            enable: true
+            latitude: 48.4722  # Replace with actual latitude
+            longitude: 2.3508  # Replace with actual longitude
+            zoom: 15
+            height: 300px
           button:
             text: Get Directions
-            url: https://maps.google.com
+            url: https://www.google.com/maps/place/Chateau+de+Buno/@48.4722,2.3508,15z  # Replace with actual Google Maps URL
     design:
       # Section background color (CSS class)
-      css_class: "bg-gray-100 dark:bg-gray-900"
----
+      css_class: "bg-gray-100 dark:bg-gray-900" 

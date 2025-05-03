@@ -2,21 +2,29 @@
 #   Create a section for each of your site's languages.
 #   Documentation: https://docs.hugoblox.com/reference/language/
 
-# Default language
+# English (default language)
 en:
   languageCode: en-us
-  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  #contentDir: content/en
+  contentDir: content/en
+  title: Jake and Megan's Wedding
+  params:
+    description: A beautiful wedding at the Chateau
 
-# Uncomment the lines below to configure your website in a second language.
-#zh:
-#  languageCode: zh-Hans
-#  contentDir: content/zh
-#  title: Chinese website title...
-#  params:
-#    description: Site description in Chinese...
-#  menu:
-#    main:
-#      - name: 传
-#        url: '#about'
-#        weight: 1
+# French
+fr:
+  languageCode: fr-fr
+  contentDir: content/fr
+  title: Le Mariage de Jake et Megan
+  params:
+    description: Un beau mariage au Château
+  menu:
+    main:
+      - name: Accueil
+        url: /#top
+        weight: 10
+      - name: Événements
+        url: /#events
+        weight: 20
+      - name: Contact
+        url: /#contact
+        weight: 30

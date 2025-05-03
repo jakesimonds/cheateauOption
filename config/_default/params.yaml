@@ -34,11 +34,13 @@ header:
     align: "center"
     fixed_to_top: true
     logo:
-      text: ""
+      text: "Chateau Buno"
       # Logo filename in `assets/media/` folder
-      filename: "logo.svg"
+      filename: "buno.svg"
+      width: 300px
+      height: 300px
     button:
-      enable: true
+      enable: false
       text: "Get Started"
       url: "https://hugoblox.com/templates/"
     show_search: false
