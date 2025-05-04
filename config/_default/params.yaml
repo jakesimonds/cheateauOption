@@ -14,7 +14,7 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'A highly-customizable Hugo landing page theme powered by Hugo Blox website builder.'
+    description: "Lieu d'événement à 50 km de Paris. | Event venue 50km from Paris."
     twitter: 'GetResearchDev'
   analytics:
     google_analytics: ''
@@ -49,7 +49,7 @@ header:
 # Site footer
 footer:
   copyright:
-    notice: '© {year} My Company'
+    notice: '© {year} Chateau Buno'
 
 # Localization
 locale:

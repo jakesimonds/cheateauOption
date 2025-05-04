@@ -31,7 +31,7 @@ sections:
       items:
         - title: Events
           text: |
-            The three story chateau sits on an island within the river, surrounded by tall trees and flowers, with birds sharing the property with us all year round. A quiet paradise only a train away from Paris, and is exceptionally affordable as it is currently being renovated.
+            The three story chateau sits on an island within the river, surrounded by tall trees and flowers, with birds sharing the property with us all year round. A quiet paradise only a train away from Paris.
 
 
             

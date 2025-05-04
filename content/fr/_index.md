@@ -31,7 +31,7 @@ sections:
       items:
         - title: Événements
           text: |
-            Le château de trois étages est situé sur une île au sein de la rivière, entouré de grands arbres et de fleurs, avec des oiseaux partageant la propriété toute l'année. Un paradis tranquille à seulement un train de Paris, et exceptionnellement abordable car il est actuellement en rénovation.
+            Le château de trois étages est situé sur une île au sein de la rivière, entouré de grands arbres et de fleurs, avec des oiseaux partageant la propriété toute l'année. Un paradis tranquille à seulement un train de Paris.
 
           feature_icon: home
           features:
